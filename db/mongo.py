@@ -500,7 +500,7 @@ class NPI_Mongo:
     def get_all_as_dict(self) -> Dict[str, Dict]:
       result = {}
       for doc in self.collection.find():
-          npi = str(doc.get("number"))  # или другой уникальный ключ
+          npi = str(doc.get("number"))
           result[npi] = doc
       return result
       

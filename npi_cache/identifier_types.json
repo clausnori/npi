@@ -1,0 +1,58 @@
+{
+  "1": {
+    "code": "01",
+    "desc": "Other (non-Medicare)"
+  },
+  "2": {
+    "code": "02",
+    "desc": "Medicare UPIN"
+  },
+  "3": {
+    "code": "03",
+    "desc": "Medicare NSC"
+  },
+  "4": {
+    "code": "04",
+    "desc": "Medicare PIN"
+  },
+  "5": {
+    "code": "05",
+    "desc": "MEDICAID"
+  },
+  "6": {
+    "code": "06",
+    "desc": "Medicare OSCAR"
+  },
+  "7": {
+    "code": "07",
+    "desc": "TRICARE"
+  },
+  "8": {
+    "code": "08",
+    "desc": "Blue Cross Blue Shield"
+  },
+  "1.0": {
+    "code": "01",
+    "desc": "Other (non-Medicare)"
+  },
+  "2.0": {
+    "code": "02",
+    "desc": "Medicare UPIN"
+  },
+  "3.0": {
+    "code": "03",
+    "desc": "Medicare NSC"
+  },
+  "4.0": {
+    "code": "04",
+    "desc": "Medicare PIN"
+  },
+  "5.0": {
+    "code": "05",
+    "desc": "MEDICAID"
+  },
+  "6.0": {
+    "code": "06",
+    "desc": "Medicare OSCAR"
+  }
+}
