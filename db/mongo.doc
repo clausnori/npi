@@ -1,0 +1,32 @@
+# Initialization with caching
+npi_mongo = NPI_Mongo(
+    connection_string="mongodb://.....",
+    database_name="healthcare",
+    collection_name="npi_providers",
+    cache_dir="npi_cache"  # Directory for cache
+)
+
+# Assume we have a DataFrame with NPI data
+# df = pd.read_csv("npi_data.csv")
+
+# Insert data with automatic cache updating
+# result = npi_mongo.insert(df, update_cache=True)
+# print(f"Insertion result: {result}")
+
+# Get cache statistics
+# stats = npi_mongo.get_cache_stats()
+# print(f"Cache stats: {stats}")
+
+# Export caches
+# npi_mongo.export_caches("my_export_folder")
+
+# Get taxonomy description
+# desc = npi_mongo.get_taxonomy_description("207Q00000X")
+# print(f"Taxonomy description: {desc}")
+
+# Get identifier information
+# id_info = npi_mongo.get_identifier_type("5")
+# print(f"Identifier info: {id_info}")
+
+# Close connection
+# npi_mongo.close()
