@@ -1,0 +1,27 @@
+table physical
+  npi :"1151010389000" <- npi
+  taxonomies_id:123
+  first_name":"JAGDEEP" <- provider_first_name 
+  last_name:"SINGH" <- provider_last_name_legal_name
+  credential:"M.D." <- provider_credential_text
+  sole_proprietor:"YES"
+  sex:"M" <- provider_sex_code
+  enumeration_date:"2006-06-22", <- provider_enumeration_date
+  last_updated_info:"2025-06-02"
+  certification_date:"2025-06-02"
+  status:"A" <- provider_middle_name
+  taxonomies:[taxonomies.id,taxonomies.id]
+  last_update:"2025-06-02" <- last_update_date
+  postal_code -> provider_business_mailing_address_postal_code
+
+table taxonomies
+  id PRIMARE KEY
+  code:"207R00000X" <- healthcare_provider_taxonomy_code_1
+  taxonomy_group: "" 
+  desc:"Internal Medicine"
+  state:"MA" <- 
+  license:"219037" <- provider_license_number_1
+  primary:false
+  last_update:"2025-06-02"
+  
+  
